@@ -8,12 +8,12 @@
   </Appenders>
 
   <Loggers>
-    <Logger name="com.log4j.sample.eclipse.User" level="debug" additivity="false">
+    <Logger name="com.log4j.sample.eclipse.User" level="off" additivity="false">
       <AppenderRef ref="Console" />
     </Logger>
 
     <!-- Root Logger -->
-    <Root level="error">
+    <Root level="debug">
       <AppenderRef ref="Console" />
     </Root>
   </Loggers>

@@ -31,7 +31,7 @@ public class Main {
 		userLogger.info(user.showMeMessage());
 		userLogger.info(user.giveMeASign());
 
-		rootLogger.info("Root Logger: " + user.showMeMessage());
+		rootLogger.info("RootLogger: " + user.showMeMessage());
 
 		// debug
 		if (rootLogger.isDebugEnabled()) {
